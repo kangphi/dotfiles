@@ -1,0 +1,53 @@
+#Alacritty:
+
+
+env:
+  TERM: xterm-256color
+
+window:
+  opacity: 0.98
+  padding:
+    x: 15
+    y: 15
+
+    dynamic_padding:  true
+  #decorations: buttonless
+  dimensions:
+    columns: 140
+    lines: 30
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+  size: 16
+  offset:
+    y: 1
+  glyph_offset:
+    y: 0
+
+cursor:
+  unfocused_hollow: true
+  style:
+    blinking: Never
+
+scrolling:
+  history: 2000
+  auto_scroll: true
+
+import:
+  # uncomment the flavour you want below:
+ - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+  # - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+  #  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+  # - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+
+
+live_config_reload: true
+                 
+key_bindings:
+
+  - { key: Key0, mods: Control, action: ResetFontSize }
+
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
