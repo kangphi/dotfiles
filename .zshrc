@@ -16,14 +16,7 @@ alias gps="git push"
 
 #alias general 
 alias l="ls -lA --color "
-
-if type brew &>/dev/null
-then
-  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-
-  autoload -Uz compinit
-  compinit
-fi
+alias cs="clear"
 
 #if [ -z "$TMUX" ]
 #then
