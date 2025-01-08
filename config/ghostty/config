@@ -1,0 +1,31 @@
+theme = catppuccin-mocha
+
+
+cursor-style = block
+
+shell-integration-features = sudo,no-title
+
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+
+window-padding-balance = true
+window-save-state = always
+window-colorspace = display-p3
+
+macos-titlebar-style = transparent
+
+
+# key bindings
+keybind = cmd+s>r=reload_config
+
+
+keybind = cmd+s>c=new_tab
+keybind = cmd+s>1=goto_tab:1
+keybind = cmd+s>2=goto_tab:2
+keybind = cmd+s>3=goto_tab:3
+keybind = cmd+s>4=goto_tab:4
+keybind = cmd+s>5=goto_tab:5
+
+keybind = cmd+shift+space=toggle_quick_terminal
