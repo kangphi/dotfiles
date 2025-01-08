@@ -8,3 +8,4 @@ after
 **/.DS_Store
 *.bak
 raycast/
+.DS_STORE
