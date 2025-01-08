@@ -68,6 +68,7 @@
               "blender"
               "github"
               "unity"
+              "chatgpt"
             ];
             masApps = {
               "Dashlane" = 517914548;
