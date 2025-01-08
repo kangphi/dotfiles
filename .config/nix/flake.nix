@@ -25,6 +25,7 @@
           # List packages installed in system profile.
           environment.systemPackages = [
             pkgs.git
+            pkgs.stow
             pkgs.neovim
             pkgs.mkalias
             pkgs.jdk8
