@@ -16,10 +16,7 @@ alias gps="git push"
 
 #alias general 
 alias l="ls -lA --color "
-alias cs="clear"
+alias c="clear"
 
-#if [ -z "$TMUX" ]
-#then
-#    tmux attach -t tmux || tmux new -s tmux
-#fi
+
 eval "$(starship init zsh)"
