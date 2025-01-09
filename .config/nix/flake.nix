@@ -48,6 +48,8 @@
             brews = [
               "mas"
               "starship"
+              "zinit"
+              "fzf"
             ];
             casks = [
               "ghostty"
