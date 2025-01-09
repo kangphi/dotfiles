@@ -9,3 +9,5 @@ after
 *.bak
 raycast/
 .DS_STORE
+.idea/
+*.iml

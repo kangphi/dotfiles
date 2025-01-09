@@ -40,6 +40,7 @@
             pkgs.dotnet-sdk_9
             pkgs.sqlite
             pkgs.nixfmt-rfc-style
+            pkgs.nixd
           ];
 
           # Homebrew casks to install
