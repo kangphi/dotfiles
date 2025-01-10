@@ -11,3 +11,4 @@ raycast/
 .DS_STORE
 .idea/
 *.iml
+.fish_history
