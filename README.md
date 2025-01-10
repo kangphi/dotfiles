@@ -8,6 +8,7 @@ Basic MacOS System Default will also be set, as well as the Apps that will appea
 Its recommended to start with a new fresh installation of MacOS. Though it is possible to run this on an existing System,
 Nix-Darwin will cleanup all Software and Packages that are not configured in the [flake.nix](https://github.com/kangphi/dotfiles/blob/main/.config/nix/flake.nix).
 
+!! Path Configs in the ```.zshrc``` or ```config.fish``` must be updated if one wants to use everything !!
 
 ### Configs Included
 
@@ -15,7 +16,7 @@ Following configs are included:
 
 - basic ```.zshrc```
 - Nix-Darwin Config
-- config for fish-shell
+- Fish-Shell ```config.fish```
 - Ghostty Terminal Emulator
 - Starship for an awesome prompt
 - Basic Neovim incl. LSPs etc
@@ -24,6 +25,11 @@ Following configs are included:
 ## Installation
 
 Steps for installation
+
+### Install MacOS Command Line tools 
+```shell
+xcode-select --install
+```
 
 
 ### Check out Repo
