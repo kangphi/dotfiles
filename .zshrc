@@ -18,5 +18,8 @@ alias gps="git push"
 alias l="ls -lA --color "
 alias cs="clear"
 
+alias nix_rebuild='darwin-rebuild switch --flake ~/dotfiles/.config/nix#main'
+alias nix_update='(cd ~/dotfiles/.config/nix && nix flake update)'
+alias nix_edit='nvim ~/dotfiles/.config/nix/flake.nix'
 
 eval "$(starship init zsh)"
