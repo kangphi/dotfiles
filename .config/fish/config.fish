@@ -28,7 +28,7 @@ end
 # ================================
 # Exports and Paths
 # ================================
-set -gx PATH /opt/homebrew/bin /Users/philipp.kang/go/bin /Users/philipp.kang/.local/bin /opt/homebrew/sbin $PATH
+set -gx PATH /opt/homebrew/bin /Users/pkang/go/bin /Users/pkang/.local/bin /opt/homebrew/sbin $PATH
 set -gx STARSHIP_CONFIG ~/.config/starship/starship.toml
 
 # ================================
