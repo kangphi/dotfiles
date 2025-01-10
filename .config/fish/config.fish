@@ -4,6 +4,22 @@ end
 
 set fish_greeting
 
+
+# ================================
+# Custom Functions
+# ================================
+function nix_rebuild
+    darwin-rebuild switch --flake ~/dotfiles/.config/nix#main
+end
+
+function nix_update
+    cd ~/dotfiles/.config/nix && nix flake update
+end
+
+function nix_edit
+    nvim ~/dotfiles/.config/nix/flake.nix
+end
+
 # ================================
 # Exports and Paths
 # ================================

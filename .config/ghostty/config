@@ -39,15 +39,15 @@ keybind = super+s>e=equalize_splits
 keybind = super+s>z=toggle_split_zoom
 
 # Split Nav
-keybind = super+c>h=goto_split:left
-keybind = super+c>j=goto_split:bottom
-keybind = super+c>k=goto_split:top
-keybind = super+c>l=goto_split:right
+keybind = super+b>h=goto_split:left
+keybind = super+b>j=goto_split:bottom
+keybind = super+b>k=goto_split:top
+keybind = super+b>l=goto_split:right
 
-keybind = super+c>left=goto_split:left
-keybind = super+c>down=goto_split:bottom
-keybind = super+c>up=goto_split:top
-keybind = super+c>right=goto_split:right
+keybind = super+b>left=goto_split:left
+keybind = super+b>down=goto_split:bottom
+keybind = super+b>up=goto_split:top
+keybind = super+b>right=goto_split:right
 
 # Global Keybindings
 keybind = global:cmd+shift+space=toggle_quick_terminal
