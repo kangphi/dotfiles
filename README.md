@@ -97,3 +97,13 @@ nix_update
 ## Upcoming Features
 - Using the Nix-Homemanager to manage Dotfiles instead of Stow
 - Extend config to be able to set up the same env on any Linux System
+
+## Other Setup Steps
+
+- Add Email Accounts
+- Add Licenes for IntelliJ etc.
+- Adjust iCloud Configs
+- Widgets if needed.
+- Configure Alfred
+- Login to things like ChatGPT
+- Install Additional Apps that are not available in any Package Manager
