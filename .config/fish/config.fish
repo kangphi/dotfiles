@@ -2,20 +2,25 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Clean up the fish Greeting
 set fish_greeting
 
 
 # ================================
 # Custom Functions
 # ================================
+
+# Rebuild Nix-Darwin
 function nix_rebuild
     darwin-rebuild switch --flake ~/dotfiles/.config/nix#main
 end
 
+# Update the nix flake
 function nix_update
     cd ~/dotfiles/.config/nix && nix flake update
 end
 
+# Call this to edit the nix-darwin config
 function nix_edit
     nvim ~/dotfiles/.config/nix/flake.nix
 end
