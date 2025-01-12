@@ -71,6 +71,7 @@
               "blender"
               "github"
               "unity"
+              "unity-hub"
               "chatgpt"
               "omnissa-horizon-client"
               "displaylink"
