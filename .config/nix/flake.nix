@@ -62,7 +62,7 @@
               "google-chrome"
               "intellij-idea"
               "rider"
-              "alfred"
+              "raycast"
               "microsoft-teams"
               "microsoft-outlook"
               "microsoft-word"
