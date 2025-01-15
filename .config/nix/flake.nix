@@ -147,7 +147,7 @@
             # Activate / Deactivate Control Center Icons
             controlcenter.BatteryShowPercentage = true;
             controlcenter.Bluetooth = true;
-            controlcenter.Display = true;
+            controlcenter.Display = false;
             controlcenter.NowPlaying = false;
 
             # General Settings
