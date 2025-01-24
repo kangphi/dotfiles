@@ -36,7 +36,6 @@
             pkgs.maven
             pkgs.gradle
             pkgs.nodejs_23
-            pkgs.go
             pkgs.dotnet-sdk_9
             pkgs.sqlite
             pkgs.nixfmt-rfc-style
@@ -50,6 +49,7 @@
               "mas"
               "starship"
               "zoxide"
+              "go"
             ];
             casks = [
               "ghostty"
