@@ -75,6 +75,7 @@
               "chatgpt"
               "omnissa-horizon-client"
               "displaylink"
+              "whatsapp"
             ];
             masApps = {
               "Dashlane" = 517914548;
