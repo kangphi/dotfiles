@@ -46,6 +46,10 @@ First make sure to install Nix on your System
 ```shell
 $ sh <(curl -L https://nixos.org/nix/install)
 ```
+Now install Nix Darwin
+```shell
+nix run nix-darwin --extra-experimental-features "nix-command flakes" -- switch --flake ~/dotfiles/.config/nix/flake.nix#main
+```
 
 Next step is to let Nix do its magic and execute the following command
 ```shell
