@@ -75,6 +75,7 @@
               "omnissa-horizon-client"
               "displaylink"
               "whatsapp"
+              "krita"
             ];
             masApps = {
               "Dashlane" = 517914548;
