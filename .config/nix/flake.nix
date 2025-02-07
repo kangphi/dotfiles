@@ -76,6 +76,7 @@
               "displaylink"
               "whatsapp"
               "krita"
+              "virtualbox"
             ];
             masApps = {
               "Dashlane" = 517914548;
