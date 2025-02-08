@@ -76,12 +76,13 @@
               "displaylink"
               "whatsapp"
               "krita"
-              "virtualbox"
+              "vmware-fusion"
             ];
             masApps = {
               "Dashlane" = 517914548;
               "KakaoTalk" = 869223134;
               "DropOver" = 1355679052;
+              "AdBlockPro" = 1018301773;
             };
 
             # Deletes all casks and brews that are not defined here
