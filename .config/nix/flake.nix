@@ -123,7 +123,7 @@
           system.defaults = {
 
             # Dock
-            dock.autohide = true;
+            dock.autohide = false;
             dock.tilesize = 50;
             dock.show-recents = false;
             dock.persistent-apps = [
