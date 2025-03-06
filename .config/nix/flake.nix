@@ -77,6 +77,7 @@
               "whatsapp"
               "krita"
               "vmware-fusion"
+              "google-drive"
             ];
             masApps = {
               "Dashlane" = 517914548;
@@ -87,8 +88,8 @@
 
             # Deletes all casks and brews that are not defined here
             onActivation.cleanup = "zap";
-            onActivation.autoUpdate = true;
-            onActivation.upgrade = true;
+            onActivation.autoUpdate = false;
+            onActivation.upgrade = false;
           };
 
           # Install Fonts here

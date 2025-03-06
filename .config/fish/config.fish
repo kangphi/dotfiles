@@ -48,9 +48,11 @@ alias gps "git push"
 alias ls "ls --color"
 alias l "ls -lA --color"
 alias c "clear"
-alias cd "z"
+#alias cd "z"
 
 
 zoxide init fish | source
 starship init fish | source
 enable_transience
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
