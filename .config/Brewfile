@@ -13,6 +13,8 @@ brew "stow"
 brew "zoxide"
 brew "kotlin"
 brew "fish"
+brew "youtubedr"
+brew "ffmpeg"
 
 cask "dotnet-sdk"
 cask "ghostty"
