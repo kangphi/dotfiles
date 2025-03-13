@@ -48,8 +48,10 @@ alias gps "git push"
 alias ls "ls --color"
 alias l "ls -lA --color"
 alias c "clear"
-#alias cd "z"
-
+alias cd "z"
+alias bunup "brew bundle upgrade --file ~/dotfiles/.config/Brewfile"
+alias bucup "brew cu -af"
+alias bup "brew update"
 
 zoxide init fish | source
 starship init fish | source

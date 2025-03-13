@@ -1,0 +1,53 @@
+tap "homebrew/bundle"
+tap "buo/cask-upgrade"
+
+brew "git"
+brew "go"
+brew "openjdk"
+brew "gradle"
+brew "mas"
+brew "maven"
+brew "neovim"
+brew "starship"
+brew "stow"
+brew "zoxide"
+brew "kotlin"
+brew "fish"
+
+cask "dotnet-sdk"
+cask "ghostty"
+cask "firefox"
+cask "the-unarchiver"
+cask "docker"
+cask "visual-studio-code"
+cask "steam"
+cask "discord"
+cask "google-chrome"
+cask "intellij-idea"
+cask "rider"
+cask "raycast"
+cask "microsoft-teams"
+cask "microsoft-outlook"
+cask "microsoft-word"
+cask "microsoft-excel"
+cask "microsoft-auto-update"
+cask "onedrive"
+cask "blender"
+cask "github"
+cask "unity-hub"
+cask "chatgpt"
+cask "omnissa-horizon-client"
+cask "displaylink"
+cask "whatsapp"
+cask "krita"
+cask "vmware-fusion"
+cask "google-drive"
+cask "font-jetbrains-mono-nerd-font"
+
+mas "Dashlane", id: 517914548
+mas "Dropover", id: 1355679052
+mas "KakaoTalk", id: 869223134
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Wipr", id: 1662217862
