@@ -15,6 +15,7 @@ brew "kotlin"
 brew "fish"
 brew "youtubedr"
 brew "ffmpeg"
+brew "golangci-lint"
 
 cask "dotnet-sdk"
 cask "ghostty"
