@@ -28,7 +28,7 @@ end
 # ================================
 # Exports and Paths
 # ================================
-set -gx PATH /opt/homebrew/bin /Users/pkang/go/bin /Users/pkang/.local/bin /opt/homebrew/sbin $PATH
+set -gx PATH /opt/homebrew/bin /Users/pkang/go/bin /Users/pkang/.local/bin /opt/homebrew/sbin /Users/pkang/Library/Python/3.9/bin/ $PATH
 set -gx STARSHIP_CONFIG ~/.config/starship/starship.toml
 
 # ================================
@@ -52,6 +52,7 @@ alias cd "z"
 alias bunup "brew bundle upgrade --file ~/dotfiles/.config/Brewfile"
 alias bucup "brew cu -af"
 alias bup "brew update"
+alias ytdown "yt-dlp -f bestaudio -x --audio-format mp3"
 
 zoxide init fish | source
 starship init fish | source
