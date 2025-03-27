@@ -18,6 +18,7 @@ brew "ffmpeg"
 brew "youtubedr"
 brew "tailwindcss"
 brew "task"
+brew "gh"
 
 cask "dotnet-sdk"
 cask "ghostty"
